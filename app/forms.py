@@ -90,9 +90,9 @@ class StateEdit(forms.ModelForm):
                         Div('name', css_class='col-md-10'),
                         Div('abbreviation', css_class='col-md-2'),
                         css_class='row'
-                    )
+                    ),
                     Div(
-                        Div(FormActions(Submit('submit', 'Submit')), css_class="col-md-12")
+                        Div(FormActions(Submit('submit', 'Submit')), css_class="col-md-12"),
                         css_class='row'
                     )
             )
