@@ -18,7 +18,7 @@ urlpatterns = [
     
     # edit views
     url(r'^city_edit/(?P<pk>\d+)/$', 'app.views.city_edit', name='city_edit'),
-    url(r'^state_edit/(?P<pk>\d+)/$', 'app.views.state_edit', name='state_edit')
+    url(r'^state_edit/(?P<pk>\d+)/$', 'app.views.state_edit', name='state_edit'),
 
     
 
@@ -28,7 +28,7 @@ urlpatterns = [
     # url(r'^state_detail_class_view/(?P<pk>\d+)', views.StateDetailView.as_view()),
 
     # form views
-    url(r'^city_search_post/', 'app.views.city_search_post'),
+    # url(r'^city_search_post/', 'app.views.city_search_post'),
     url(r'^city_search/', 'app.views.city_search'),
     
 
